@@ -1,6 +1,6 @@
 // Commonly used web colors
 $black: #000000;            // Black
-$white: #ffffff;            // White -> Rechts die Links
+$white: #ffffff;            // White
 $success-green: #859900;    // Padua
 $error-red: #d33682;        // Cerise
 $warning-red: #dc322f;      // Sunset Orange
@@ -9,9 +9,9 @@ $gold-star: #b58900;        // Dark Goldenrod
 $red-bookmark: $warning-red;
 
 $classic-base-color: #002b36;
-$classic-primary-color: #839496; -> Icon oben links -> #8E9C9C
-$classic-secondary-color: #93a1a1; -> Header text (All, Mentions)
-$classic-highlight-color: #268bd2; -> Icons notification
+$classic-primary-color: #839496;
+$classic-secondary-color: #93a1a1;
+$classic-highlight-color: #268bd2;
 
 // Variables for defaults in UI
 $base-shadow-color: $black !default;
@@ -23,7 +23,7 @@ $error-value-color: $error-red !default;
 
 // Tell UI to use selected colors
 $ui-base-color: $classic-base-color !default;                  // Darkest
-$ui-base-lighter-color: #073642 !default; // Lighter darkest
+$ui-base-lighter-color: #073642 !default;                      // Lighter darkest
 $ui-primary-color: $classic-primary-color !default;            // Lighter
 $ui-secondary-color: $classic-secondary-color !default;        // Lightest
 $ui-highlight-color: $classic-highlight-color !default;
